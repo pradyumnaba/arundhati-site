@@ -2,9 +2,91 @@
 <html lang="en-US" class="no-js">
 
 <head>
-<script>
+<style>
+.hero {
+  position: relative;
+  background-image: url('upload/AG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0 1rem;
+}
 
-</script>
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+  font-family: 'Verdana', sans-serif;
+}
+
+.hero h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero .tagline {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  font-family: 'Jost', sans-serif;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Responsive Text Sizes */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h3 {
+    font-size: 1.2rem;
+  }
+
+  .hero .tagline {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+</style>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,7 +114,7 @@
 
 </head>
 
-<body class="home page-template-default page page-id-6208 gdlr-core-body tribe-no-js kingster-body kingster-body-front kingster-full kingster-with-sticky-navigation kingster-sticky-navigation-no-logo kingster-blockquote-style-1 gdlr-core-link-to-lightbox" >
+<body class="home page-template-default page page-id-6208 gdlr-core-body tribe-no-js kingster-body-front kingster-full kingster-with-sticky-navigation kingster-sticky-navigation-no-logo kingster-blockquote-style-1 gdlr-core-link-to-lightbox" >
     <div class="kingster-mobile-header-wrap">
         <div class="kingster-mobile-header kingster-header-background kingster-style-slide kingster-sticky-mobile-navigation" id="kingster-mobile-header">
             <div class="kingster-mobile-header-container kingster-container clearfix">
@@ -99,101 +181,15 @@
             </div>
             <div class="kingster-page-wrapper" id="kingster-page-wrapper">
                 <div class="gdlr-core-page-builder-body">
-                    <div class="gdlr-core-pbf-wrapper" style="padding: 0px 0px 0px 0px;">
-                        <div class="gdlr-core-pbf-background-wrap"></div>
-                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
-                            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-revolution-slider-item gdlr-core-item-pdlr gdlr-core-item-pdb" style="padding-bottom: 0px;">
-                                        <!-- START Homepage College REVOLUTION SLIDER 6.2.22 -->
-                                        <p class="rs-p-wp-fix"></p>
-                                        <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="background: transparent; padding: 0; margin: 0px auto; margin-top: 0; margin-bottom: 0;">
-                                            <rs-module id="rev_slider_1_1" style="" data-version="6.2.22">
-                                                <rs-slides>
-                                                    <rs-slide data-key="rs-1" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
-                                                        <img
-                                                            src="upload/AG.jpg"
-                                                            title="slider-1"
-                                                            width="2000"
-                                                            height="1200"
-                                                            data-panzoom="d:7000ms;ss:100%;se:103%;"
-                                                            class="rev-slidebg"
-                                                            data-no-retina
-                                                        />
-                                                        <!--                        -->
-                                                        <rs-layer
-                                                            id="slider-1-slide-1-layer-3"
-                                                            class="lebeaune-font"
-                                                            data-type="text"
-                                                            data-rsp_ch="on"
-                                                            data-xy="x:c;y:m;yo:18px,18px,18px,88px;"
-                                                            data-text="w:normal;s:80,80,80,53;l:75,75,75,37;a:center;"
-                                                            data-dim="w:616px,616px,616px,301px;"
-                                                            data-frame_1="st:250;sR:250;"
-                                                            data-frame_999="o:0;st:w;sR:8450;"
-                                                            style="z-index: 10; font-family: Verdana, Geneva, sans-serif;"
-                                                        >
-                                                            Arundhati Gurukulam
-                                                        </rs-layer>
-                                                        <!--                        -->
-                                                        <rs-layer
-                                                            id="slider-1-slide-1-layer-5"
-                                                            class="lebeaune-font"
-                                                            data-type="text"
-                                                            data-rsp_ch="on"
-                                                            data-xy="x:c;xo:0,0,0,1px;y:m;yo:-110px,-110px,-110px,131px;"
-                                                            data-text="s:22,22,22,16;l:30;ls:0,0,0,1px;fw:400,400,400,700;a:center;"
-                                                            data-dim="w:243px,243px,243px,358px;"
-                                                            data-frame_1="st:460;sR:460;"
-                                                            data-frame_999="o:0;st:w;sR:8240;"
-                                                            style="z-index: 11; font-family: Poppins;"
-                                                        >
-                                                            Welcome to
-                                                        </rs-layer>
-                                                        <!--                        -->
-                                                        <rs-layer
-                                                            id="slider-1-slide-1-layer-9"
-                                                            class="jost-font"
-                                                            data-type="text"
-                                                            data-rsp_ch="on"
-                                                            data-xy="x:c;xo:16px,16px,16px,0;yo:687px,687px,687px,198px;"
-                                                            data-text="w:normal;s:20,20,20,19;l:30;ls:1px;a:center;"
-                                                            data-dim="w:505px,505px,505px,358px;h:40px,40px,40px,auto;"
-                                                            data-frame_1="st:620;sR:620;"
-                                                            data-frame_999="o:0;st:w;sR:8080;"
-                                                            style="z-index: 9; font-family: Jost;"
-                                                        >
-                                                            Surakṣhitā Suśhikṣhita Suśheela
-                                                        </rs-layer>
-                                                        <!--                        -->
-                                                        <a
-                                                            id="slider-1-slide-1-layer-14"
-                                                            class="rs-layer lebeaune-font"
-                                                            href="#gdlr-core-wrapper-1"
-                                                            target="_self"
-                                                            rel="nofollow"
-                                                            data-type="text"
-                                                            data-rsp_ch="on"
-                                                            data-xy="x:c;y:m;yo:347px,347px,347px,129px;"
-                                                            data-text="w:normal;s:15,15,15,5;l:25,25,25,9;fw:500;a:center;"
-                                                            data-dim="w:182px,182px,182px,67px;"
-                                                            data-frame_1="st:990;sR:990;"
-                                                            data-frame_999="o:0;st:w;sR:7710;"
-                                                            style="z-index: 8; font-family: Jost;"
-                                                        >
-                                                            Discover Now
-                                                        </a>
-                                                    </rs-slide>
-                                                </rs-slides>
-                                            </rs-module>
+                    <section class="hero">
+  <div class="hero-content">
+    <h3>Welcome to</h3>
+    <h1>Arundhati Gurukulam</h1>
+    <p class="tagline">Surakṣhitā Suśhikṣhita Suśheela</p>
+    <a href="#gdlr-core-wrapper-1" class="cta-button">Discover Now</a>
+  </div>
+</section>
 
-                                        </rs-module-wrap>
-                                        <!-- END REVOLUTION SLIDER -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="gdlr-core-pbf-section">
                         <div class="gdlr-core-pbf-section-container gdlr-core-container clearfix">
                             <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first gdlr-core-hide-in-mobile" id="gdlr-core-column-35275" style="z-index: 9;">
